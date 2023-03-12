@@ -4,7 +4,6 @@ import CreateTodo from "./component/CreateTodo";
 import EditTodo from "./component/EditTodo";
 import ShowModalAllTodos from "./component/Home";
 function App() {
-  // test github
   return (
     <Routes>
       <Route path="/" element={<ShowModalAllTodos />}>
