@@ -1,0 +1,35 @@
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+ul li {
+  padding: 0.25rem 1rem;
+  margin-top: 0.5rem;
+  box-shadow: 1px 2px 3px 1px #cdcaca;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  padding-top: 3rem;
+  /* text-align: center; */
+}
+h3 {
+  text-align: center;
+}
+#addButton {
+  margin-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.editBtn,
+.deleteBtn {
+  border-radius: 40%;
+  cursor: pointer;
+  margin: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.bolder-text {
+  font-weight: 600;
+}
